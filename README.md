@@ -5,7 +5,11 @@ Intial goals:
 * Survival time events
 * Treatments given/durations
 
-Source data and processed data can be found in an s3 bucket
-*ENTER BUCKET HERE*
+All directories exist in notehub environment, in the rahul-work notebook name. The specific project is called tcga_gdc.
 
 You can find input json at `source-data/20180823_release_12.0.clean.json`.
+
+Main parsing notebook - GDC Parsing.ipynb
+
+Survival tests - Doxorubicin.ipynb, Test KM Plots.ipynb, TNBC Survival.ipynb
+Drug annotations - Drug Parsing Nant API + Pubchem.ipynb

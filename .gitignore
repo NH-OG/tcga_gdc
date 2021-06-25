@@ -1,3 +1,5 @@
 chris-data
 processed-data
 source-data
+*.csv
+.ipynb_checkpoints
